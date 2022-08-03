@@ -1,23 +1,27 @@
-p.intro {
+.intro {
   text-align:center;
   font-style: italic;
   color: crimson;
+  font-weight:bolder;
+  border: double;
+  border-color:rgba(46, 46, 45, 0.986);
+  border-radius:30px;
+  width:1000px;
+  padding:25px;
+  margin:auto;
 }
-img.intro{
+img.image{
   text-align:center;
-  max-width: 100%;
-  height: auto;
-  opacity: 1;
-  display:block;
-  transition: .5 ease;
-  backface-visibility:hidden;
-
+  margin: auto;
+  display: block;
 }
 h1{
   text-align:center;
+  color:antiquewhite;
 }
-h2.intro{
+h2.two{
   text-align:center;
+  color:antiquewhite;
 }
 title{
   text-align:center;
@@ -26,41 +30,43 @@ p.one{
   text-align:center;
   font-weight:bold;
   text-decoration:underline;
-  text-decoration-color: blueviolet;
-}
-p.mid{
-  text-align:center;
-}
-p.outro{
-  text-align:center;
-}
-.container{
-  position:relative;
-  width:50%;
-}
-img.image{
-  display:block;
-  width:100%;
-  height:auto;
-  opacity:1;
-  transition:5s ease;
-}
-.overlay-box{
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  -ms-transform: (-50%,-50%);
-}
-.container:hover.image{
-  opacity:0.5;
-}
-.container:hover.overlay-box{
-  opacity:1;
-}
-.text{
-  background-color: #008000;
+  text-decoration-color: black;
   color:white;
-  font-size:14px;
-  padding:10px 15px;
+}
+.mid{
+  text-align:center;
+  font-family:georgia,serif;
+  border: double;
+  color:bisque;
+  border-color:rgba(46, 46, 45, 0.986);
+  border-radius: 30px;
+  width:1000px;
+  padding:25px;
+  margin:auto;
+}
+.outro{
+  text-align:center;
+  border:double;
+  border-color:rgba(46, 46, 45, 0.986);
+  color:plum;
+  border-radius: 30px;
+  width:1000px;
+  padding:25px;
+  margin:auto;
+  font-weight:bold;
+}
+span.test{
+color:mediumslateblue;
+}
+body{
+  background:darkslategrey;
+}
+span.other{
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+h3{
+  text-align: center;
+  font-size: 59px;
+  color:antiquewhite;
 }
